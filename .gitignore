@@ -1,3 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+SpecLibDolphin2016.Rproj
+/SpecLibDolphin2016.Rcheck
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

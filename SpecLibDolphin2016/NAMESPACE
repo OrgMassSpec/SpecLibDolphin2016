@@ -3,3 +3,6 @@ export(LibraryReport)
 import(OrgMassSpecR,
        grid,
        png)
+
+importFrom("grDevices", "graphics.off", "pdf")
+importFrom("utils", "sessionInfo")

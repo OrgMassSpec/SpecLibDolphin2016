@@ -2,11 +2,11 @@ Package: SpecLibDolphin2016
 Type: Package
 Title: Mass Spectral Library Brazil Bottlenose Dolphin Blubber 2016
 Version: 0.1-1
-Date: 2016-02-23
-Author: ???
-Maintainer: Nathan Dodder <nathand@sccwrp.org>
+Date: 2016-07-05
+Author: Mariana B. Alonso, Keith A. Maruya, Nathan G. Dodder, Jose Lailson Brito Jr., Alexandre Azevedo, Elitieri Santos-Neto, Joao Paulo M. Torres, Olaf Malm, Eunha Hoh
+Maintainer: Nathan Dodder <ndodder@mail.sdsu.edu>
 Depends: R (>= 3.0.0), OrgMassSpecR (>= 0.4-4), grid, png
-Description: Contains the code and mass spectral library described in: ???
+Description: Contains the code and mass spectral library described in: Non-targeted screening of halogenated organic compounds in bottlenose dolphins (Tursiops truncatus) from Rio de Janeiro, Brazil.
 License: BSD_2_clause + file LICENSE
 URL: http://OrgMassSpec.github.io
 LazyData: yes
