@@ -42,8 +42,9 @@ LibraryReport <- function(spectra = SpecDataDolphin,
   pushViewport(viewport(layout.pos.row = 3))
   
   grid.text("Non-targeted screening of halogenated organic compounds in\nbottlenose dolphins (Tursiops truncatus) from Rio de Janeiro, Brazil.", y = 0.9, gp = gpar(cex = 1.25))
-  grid.text("Authors: Mariana B. Alonso, Keith A. Maruya, Nathan G. Dodder, Jose Lailson Brito Jr.,\nAlexandre Azevedo, Elitieri Santos-Neto, Joao Paulo M. Torres, Olaf Malm, Eunha Hoh", y = 0.6, gp = gpar(cex = 1.25))
-  grid.text("Web Reference: http://OrgMassSpec.github.io", y = 0.3, gp = gpar(cex = 1.25))
+  grid.text("Authors: Mariana B. Alonso, Keith A. Maruya, Nathan G. Dodder, Jose Lailson Brito Jr.,\nAlexandre Azevedo, Elitieri Santos-Neto, Joao Paulo M. Torres, Olaf Malm, Eunha Hoh", y = 0.7, gp = gpar(cex = 1.25))
+  grid.text("Web Reference: http://OrgMassSpec.github.io", y = 0.5, gp = gpar(cex = 1.25))
+  grid.text("Chemicals previously identified in other regions are specified as follows:\n1) In N. Atlantic: indicates if the compound was found in dolphin blubber from the North Atlantic\n(Hoh et al., Environ. Sci. Technol., 2012, 46, 8001-8008.\n2) In N. Pacific: indicates if the compound was found in dolphin blubber from the Southern California Bight\n(Shaul et al., Environ. Sci. Technol., 2015, 49, 1328-1338.", x = 0.2, y = 0.2, just = "left", gp = gpar(cex = 1))
 
   popViewport()
   
